@@ -10,6 +10,6 @@ plusButton.addEventListener('click', () => {
   } else { 
           count ++;
       }
-        mydiv.innerHTML = "こんにちは、" + count + "さん";
+        number.innerHTML = "こんにちは、" + count + "さん";
    // number.innerHTML = count;
 });
