@@ -25,7 +25,11 @@ plusButton.addEventListener('click', () => {
                if (count == 0) {
                     number.innerHTML = "ウェカ";
                } else { 
-                    number.innerHTML = "ウェカ" + count + "ピポ";
+                    if (count == 1) {
+                         number.innerHTML = "ウェカピポ";
+                    } else { 
+                         number.innerHTML = "ウェカ" + count + "ピポ";
+                    }
                }
           } else { 
                if (count == 0) {
