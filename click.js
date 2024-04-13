@@ -35,9 +35,13 @@ plusButton.addEventListener('click', () => {
                }
           } else { 
                if (count == 0) {
-                    number.innerHTML = count2 + "ウェカピポ";
+                    number.innerHTML = count2 + "ウェカ";
                } else { 
-                    number.innerHTML = count2 + "ウェカ" + count + "ピポ";
+                    if (count == 1) {
+                         number.innerHTML = count2 + "ウェカピポ";
+                    } else { 
+                         number.innerHTML = count2 + "ウェカ" + count + "ピポ";
+                    }
                }
           }
      }
