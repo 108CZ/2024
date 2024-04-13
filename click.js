@@ -5,8 +5,10 @@ let count = 0;
 let count2 = 0;
 
 plusButton.addEventListener('click', () => {
-     if (count2 == 3){
-          alert("えらー");
+     if (count2 == 5){
+          alert("当然！「リセット」だッ！祖先から受け継ぐエラー対策！それが流儀ィィッ！！");
+         count = 0;
+         count2 = 0;
      }else {}
       if (count > 5) {
            count = 0;
