@@ -12,10 +12,10 @@ plusButton.addEventListener('click', () => {
       } else { 
            count ++;
       }
-     if (count2 = 0) {
+     if (count2 == 0) {
           number.innerHTML = count + "ピポ";
      } else { 
-          if (count2 = 1) {
+          if (count2 == 1) {
                number.innerHTML = "ウェカ" + count + "ピポ";
           } else { 
                number.innerHTML = count2 + "ウェカ" + count + "ピポ";
