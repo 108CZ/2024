@@ -8,7 +8,7 @@ plusButton.addEventListener('click', () => {
      if (count2 == 3){
           alert( 画面に表示させたい値 );
      }else {}
-      if (count > 6) {
+      if (count > 5) {
            count = 0;
            count2 ++;
       } else { 
